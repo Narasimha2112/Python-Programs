@@ -1,3 +1,9 @@
-num = float(input("Enter a number: "))
+# Check if a number is Even or Odd
 
-print(num)
+def Even(num):
+    if num%2==0:
+        return "Even Number"
+    else:
+        return "Odd Number"
+number = eval(input("Enter a number: "))
+print("The given number is",Even(number))
